@@ -18,6 +18,13 @@ var dashboard = new ParseDashboard({
       appName: process.env.APP_NAME,
     },
   ],
+  users: [
+    {
+      "user":"Erik",
+      "pass":"$2y$12$Vjqo.hrktXzR6IKI9JxXPeAJbYDtFMJcHaZ0SvV9tKF5u6S.BwSoW"
+    }
+  ],
+  useEncryptedPasswords: true
 });
 
 var app = express();
