@@ -12,10 +12,10 @@ var dashboard = new ParseDashboard({
 
   apps: [
     {
-      appId: process.env.APP_ID || 'myAppId',
-      masterKey: process.env.MASTER_KEY || 'myMasterKey',
+      appId: process.env.APP_ID,
+      masterKey: process.env.MASTER_KEY,
       serverURL: process.env.SERVER_URL,
-      appName: process.env.APP_NAME || 'MyApp',
+      appName: process.env.APP_NAME,
     },
   ],
 });
