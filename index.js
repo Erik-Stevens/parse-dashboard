@@ -14,7 +14,7 @@ var dashboard = new ParseDashboard({
     {
       appId: process.env.APP_ID || 'myAppId',
       masterKey: process.env.MASTER_KEY || 'myMasterKey',
-      serverURL: process.env.SERVER_URL || herokuParseServer || localParseServer,
+      serverURL: process.env.SERVER_URL,
       appName: process.env.APP_NAME || 'MyApp',
     },
   ],
