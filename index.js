@@ -14,7 +14,7 @@ var dashboard = new ParseDashboard({
     {
       appId: process.env.APP_ID,
       masterKey: process.env.MASTER_KEY,
-      serverURL: process.env.SERVER_URL,
+      serverURL: 'https://rivers-database.herokuapp.com/parse',
       appName: process.env.APP_NAME,
     },
   ],
