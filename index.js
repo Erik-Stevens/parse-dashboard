@@ -21,7 +21,7 @@ var dashboard = new ParseDashboard({
 });
 
 var app = express();
-app.enable('trust proxy');
+//app.enable('trust proxy');
 
 // make the Parse Dashboard available at /
 app.use('/', dashboard);
